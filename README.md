@@ -89,7 +89,6 @@ $results = $knn->calculate();
 ```
 
 6. Finally, we will get index (or indexes) of the items to recommend to our user
-<br>
 <i>Note that in addition to the calculated results, there is a second parameter in the recommendation method.
 This is because there may be equal results in the calculation. If you pass TRUE, the method will return the index
 all results repeated. If you pass FALSE, the first one found will be returned</i>
