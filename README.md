@@ -135,6 +135,10 @@ foreach($itemsToCompare[$key] as $item) {
 
 **You can view this complete file [by clicking here](https://github.com/WellingtonCarneiroBarbosa/knn-em-php/blob/master/example/example.php)**
 
+## Contributing
+You can contribute to this package by forking the repository and developing new features
+and increments and sending the pull request!
+
 ## Author 
 <a href="https://github.com/wellingtoncarneirobarbosa" target="_blank">
 <img src="https://github.com/WellingtonCarneiroBarbosa/laravel-chat/blob/master/public/readme-assets/autor.jpg?raw=true" width="80" height="80" alt="Wellington Carneiro Barbosa"> Wellington Barbosa

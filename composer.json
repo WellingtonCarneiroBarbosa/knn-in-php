@@ -4,7 +4,7 @@
     "keywords": ["knn", "classification", "regression", "nearest neighbors", "algorithm", "recomendation algorithm", "recomendation", "decision support system"],
     "version": "1.0.0",
     "license": "MIT",
-    "type": "lib",
+    "type": "package",
     "require": {
         "php": ">=7.2"
     },
