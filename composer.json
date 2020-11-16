@@ -1,6 +1,6 @@
 {
     "name": "wellingtonbarbosa/knn",
-    "description": "Recommendation library of categorized items for php using Euclidean distance calculation",
+    "description": "A package to calculate Euclidean distance in a simple way, in addition to comparing results for recommendation quickly and symptomatically, without ifs.",
     "keywords": ["knn", "classification", "regression", "nearest neighbors", "algorithm", "recomendation algorithm", "recomendation", "decision support system"],
     "version": "1.0.0",
     "license": "MIT",
