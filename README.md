@@ -67,7 +67,7 @@ $itemsToCompare = [
 ];
 ```
 
-<i>Note that all items have 4 indexes. This is a limitation of this algorithm because all items must have the same number of indexes, or it will not work :/</i>
+<i>! Note that all items have 4 indexes. All items must have the same number of indexes, or it will not work</i>
 
 4. Instantiate the class in a variable <br>
 <i>The last parameter passed is the number of indexes that ALL items have.</i>
