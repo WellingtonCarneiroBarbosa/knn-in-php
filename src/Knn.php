@@ -32,7 +32,6 @@ class Knn
      * @param array $itemsToCompare The items to be compared
      * @param integer $columns Number of indices in each item to be compared
      * 
-     * @return void
      */
     public function __construct(array $defaultItem, array $itemsToCompare, int $columns)
     {
