@@ -33,12 +33,12 @@ The algorithm will use these percentages to perform the calculation
 To understand how the euclidian calculation does work, please visit [this link](https://en.wikipedia.org/wiki/Euclidean_distance)
 
 ## Getting Started
-1. Install on your project via composer
+1 - Install on your project via composer
 ```
 composer require wellingtonbarbosa/knn
 ```
 
-2. Use the class in your php file
+2 - Use the class in your php file
 
 ```
 <?php
@@ -47,7 +47,7 @@ require_once(__DIR__ . '\vendor\autoload.php');
 use WellingtonBarbosa\Knn\Knn;
 ```
 
-1. Create some items to test <br>
+3 - Create some items to test <br>
 <i>In our example, $defaultItem is the movie the user has just watched, and the $itemsToCompare are movies drawn from the database. Let's see which of these is more like what our user just watched? So let's go!</i>
 ```
 //The item to compare (four indices)
@@ -72,7 +72,7 @@ $itemsToCompare = [
 
 <i>! Note that all items have 4 indexes. All items must have the same number of indexes, or it will not work</i>
 
-1. Instantiate the class in a variable <br>
+4 - Instantiate the class in a variable <br>
 <i>The last parameter passed is the number of indexes that ALL items have.</i>
 ```
 /**
@@ -85,13 +85,13 @@ $itemsToCompare = [
 $knn = new Knn($defaultItem, $itemsToCompare, 4);
 ```
 
-1. Performs Euclidean distance calculation for each item
+5 - Performs Euclidean distance calculation for each item
 ```
 //Performs Euclidean distance calculation
 $results = $knn->calculate();
 ```
 
-1. Finally, we will get index (or indexes) of the items to recommend to our user <br>
+6 - Finally, we will get index (or indexes) of the items to recommend to our user <br>
 <i>Note that in addition to the calculated results, there is a second parameter in the recommendation method.
 This is because there may be equal results in the calculation. If you pass TRUE, the method will return the index
 all results repeated. If you pass FALSE, the first one found will be returned</i>
@@ -113,7 +113,7 @@ $recomendation = $knn->recomend($results, false);
 
 ```
 
-1. Now, just look for the item that we will recommend
+7 - Now, just look for the item that we will recommend
 ```
 //Multiple items
     foreach($recomendation as $key) {
