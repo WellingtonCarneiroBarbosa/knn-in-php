@@ -1,5 +1,6 @@
 # k-Nearest Neighbors in PHP
 ### **Php algorithm that is able to make recommendations on categorized items in your database**
+This is the first version of the KNN package. With this package you will be able to calculate Euclidean distance in a simple way, in addition to comparing results for recommendation in a quick and symptomatic way, without ifs.
 <img src="https://scx1.b-cdn.net/csz/news/800/2019/howtoovercom.jpg" style="
 height: 20%;
 widht: 20%;
