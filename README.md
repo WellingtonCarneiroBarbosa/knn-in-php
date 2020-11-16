@@ -158,6 +158,6 @@ Facebook
 
 ## License
 
-This library is under the [MIT License](https://opensource.org/licenses/MIT).
+This package is under the [MIT License](https://opensource.org/licenses/MIT).
 
 Any issue, [tell me on github](https://github.com/WellingtonCarneiroBarbosa/knn-em-php/issues/new)! I will help you.
