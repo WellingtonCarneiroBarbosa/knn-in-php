@@ -1,11 +1,20 @@
 {
     "name": "wellingtonbarbosa/knn",
-    "type": "package",
-    "description": "A nice php knn package.",
+    "description": "Recommendation library of categorized items for php using Euclidean distance calculation",
+    "keywords": ["knn", "classification", "regression", "nearest neighbors", "algorithm", "recomendation algorithm", "recomendation", "decision support system"],
+    "version": "1.0.0",
     "license": "MIT",
+    "type": "lib",
     "require": {
-        "php": "^7.3"
+        "php": ">=7.2"
     },
+    "require-dev": {
+        "larapack/dd": "1.*"
+    },
+    "authors": [{
+        "name": "Wellington Barbosa",
+        "email": "owellingtoncarneirobarbosa@gmail.com"
+    }],
     "autoload": {
         "psr-4": {
             "WellingtonBarbosa\\Knn\\": "src/"
